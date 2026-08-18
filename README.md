@@ -23,3 +23,11 @@ Lägg kundens bilder i `images/` och byt bildsökvägarna i `config.js`.
 ## Publicering
 Samma flöde som Lumière:
 VS Code → GitHub → Netlify.
+
+
+## Språk
+Automatisk språkdetektering + manuellt språkval: Svenska, English, Dansk, Deutsch, Español, Français, Italiano, Português.
+
+
+## Multilingual v2
+Complete translation pass for navigation, services, projects, testimonials, quote form, placeholders, opening hours and footer.
