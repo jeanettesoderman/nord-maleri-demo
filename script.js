@@ -36,7 +36,7 @@ function renderServices() {
       <div class="service-content">
         <h3>${s.name}</h3>
         <p>${s.description}</p>
-        <a href="#offert">Begär offert</a>
+        <a href="#offert">${window.NORD_TR ? window.NORD_TR("Begär offert") : "Begär offert"}</a>
       </div>
     </article>
   `).join("");
@@ -67,7 +67,7 @@ form.addEventListener("submit", e => {
     return;
   }
   e.preventDefault();
-  document.getElementById("form-status").textContent = "Demoformulär. Här kopplas kundens formulärtjänst in.";
+  document.getElementById("form-status").textContent = window.NORD_TR ? window.NORD_TR("Demoformulär. Här kopplas kundens formulärtjänst in.") : "Demoformulär. Här kopplas kundens formulärtjänst in.";
   form.reset();
 });
 

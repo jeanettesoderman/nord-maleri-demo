@@ -35,3 +35,7 @@ Complete translation pass for navigation, services, projects, testimonials, quot
 
 ## v3 language completion
 Expanded translations for hero, service intro, project headline, ROT section, testimonials and quote form. Added helpful placeholders to the quote form.
+
+
+## v4 full visible-text pass
+Added remaining stat labels, about bullets, review heading and quotes, quote form labels/placeholders/button, footer labels and script-generated text for every exposed language.
