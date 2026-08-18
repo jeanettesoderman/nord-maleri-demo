@@ -1,0 +1,1 @@
+Lägg kundens egna bilder här och ändra sökvägarna i config.js.
