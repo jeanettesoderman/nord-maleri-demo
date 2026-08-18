@@ -156,10 +156,10 @@
 
     <form class="quote-form" data-contact-form>
       <div class="form-row">
-        <label>Namn<input type="text" name="name" required></label>
-        <label>Telefon<input type="tel" name="phone"></label>
+        <label>Namn<input type="text" name="name" required placeholder="Ditt namn"></label>
+        <label>Telefon<input type="tel" name="phone" placeholder="070-123 45 67"></label>
       </div>
-      <label>E-post<input type="email" name="email" required></label>
+      <label>E-post<input type="email" name="email" required placeholder="din@email.se"></label>
       <label>Typ av projekt
         <select name="project">
           <option>Invändig målning</option>
@@ -169,7 +169,7 @@
           <option>Annat</option>
         </select>
       </label>
-      <label>Beskriv projektet<textarea rows="5" name="message" required></textarea></label>
+      <label>Beskriv projektet<textarea rows="5" name="message" required placeholder="Beskriv kort vad du vill ha hjälp med..."></textarea></label>
       <button class="btn" type="submit">Skicka offertförfrågan</button>
       <p id="form-status" class="form-status"></p>
     </form>

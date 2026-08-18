@@ -31,3 +31,7 @@ Automatisk språkdetektering + manuellt språkval: Svenska, English, Dansk, Deut
 
 ## Multilingual v2
 Complete translation pass for navigation, services, projects, testimonials, quote form, placeholders, opening hours and footer.
+
+
+## v3 language completion
+Expanded translations for hero, service intro, project headline, ROT section, testimonials and quote form. Added helpful placeholders to the quote form.
